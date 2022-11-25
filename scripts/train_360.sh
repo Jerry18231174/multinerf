@@ -15,10 +15,10 @@
 
 export CUDA_VISIBLE_DEVICES=0
 
-SCENE=gardenvase
+SCENE=fox
 EXPERIMENT=360
-DATA_DIR=/usr/local/google/home/barron/tmp/nerf_data/nerf_real_360
-CHECKPOINT_DIR=/usr/local/google/home/barron/tmp/nerf_results/"$EXPERIMENT"/"$SCENE"
+DATA_DIR=../data
+CHECKPOINT_DIR=../results/"$EXPERIMENT"/"$SCENE"
 
 # If running one of the indoor scenes, add
 # --gin_bindings="Config.factor = 2"
