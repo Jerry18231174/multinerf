@@ -17,8 +17,8 @@ export CUDA_VISIBLE_DEVICES=0
 
 SCENE=fox
 EXPERIMENT=360
-DATA_DIR=../data
-CHECKPOINT_DIR=../results/"$EXPERIMENT"/"$SCENE"
+DATA_DIR=data
+CHECKPOINT_DIR=results/"$EXPERIMENT"/"$SCENE"
 
 # If running one of the indoor scenes, add
 # --gin_bindings="Config.factor = 2"
